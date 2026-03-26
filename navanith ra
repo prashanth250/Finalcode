@@ -1,0 +1,15 @@
+import array as arr
+a=arr.array("i",[])
+num=int (input("enter the number of items in array:"))
+for i in range(0,num):
+    item=int(input("enter the%d number in array:%(i+1"))
+    a.insert(i,item)
+    key=int(input("enter the number to search:"))
+    flag=0
+    for i in range(0,num):
+         if(a(i)==key):
+             print("the %dis found in array at index%d(key,i+1)")
+             flag=1
+             break
+         if(flag==0):
+             print ("the number is not found in the array")
